@@ -1,0 +1,104 @@
+.main{
+
+
+
+background-image: url(./Traveling-from-the-UAE-to-Sri-Lanka-_-Cover.jpg);
+height: 500px;
+background-size: cover;
+background-position: center;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+
+
+
+
+
+
+}
+
+.FOOT{
+
+    background-image: url(./Traveling-from-the-UAE-to-Sri-Lanka-_-Cover.jpg);
+}
+
+.img1{
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+
+
+
+}
+.headtop{
+
+    color: #613f00;
+    font-family: 'Lobster', cursive;
+}
+
+
+span{
+
+
+    color: #613f00;
+}
+.head3{
+
+    color: rgb(211, 211, 83);
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; 
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+}
+
+
+
+
+.card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+    height: 90px; 
+    overflow: hidden;
+}
+
+.btn1{
+
+    background-color: #e67d3c;
+    color: #f4f4f4;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.btn1:hover{
+
+    background-color: #efa045;
+}
+
+
+.newimg{
+
+    border: none;
+    border-radius: 3px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); 
+}
+
+
+.imgplaces{
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out; 
+  }
+  
+  .imgplaces:hover {
+    transform: scale(1.03); 
+    opacity: 0.95; 
+  }
+
+.btn3{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
