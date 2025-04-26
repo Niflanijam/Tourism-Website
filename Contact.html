@@ -16,6 +16,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"></script>
+
+      <style>
+        .btn1{
+          border-color: orange;
+        }
+      </style>
 </head>
 <body>
 
@@ -118,12 +124,40 @@
             </div>
             <div class="row mt-3">
                 <div class="col-12 text-center">
-                    <button type="button" class="btn1">OR, FIND YOUR ANSWERS HERE: FAQ</button>
+                    <button type="button" class="btn1">Connect Us through Mail</button>
                 </div>
             </div>
         </div>
     </div>
 
+
+    <div class="container mt-5 text-center" >
+      <h2 class="mb-4">Contact Us</h2>
+      <form>
+          <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+  
+          <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+  
+          <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
+          </div>
+  
+          <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..." required></textarea>
+          </div>
+  
+          <button type="submit" class="btn1">Send Message</button>
+      </form>
+  </div>
+  
 
     <footer class="bg-body-tertiary text-center text-lg-start">
   
